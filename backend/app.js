@@ -4,7 +4,7 @@ dotenv.config();
 const express = require("express");
 const cors = require("cors");
 const swaggerUi = require("swagger-ui-express");
-// const authRouter = require("./routes/auth.route");
+ const authRouter = require("./routes/auth.route");
 const swaggerFile = require("./swagger-output.json");
 const profileRouter = require("./routes/profile.route");
 const skillRouter = require("./routes/skills.router");
@@ -32,7 +32,7 @@ app.post("/echo", (req, res) => {
 
 
 // Routes
-// app.use("/auth", authRouter);
+ app.use("/auth", authRouter);
 
 app.use("/profile", profileRouter);
 app.use("/skills", skillRouter);
