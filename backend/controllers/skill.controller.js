@@ -12,3 +12,5 @@ const getSkillList = async (req, res) => {
 };
 
 module.exports = { getSkillList };
+
+

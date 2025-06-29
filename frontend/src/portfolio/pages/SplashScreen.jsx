@@ -1,22 +1,3 @@
-// import React from "react";
-// import LoadingGif from "../../assets/loading.gif";
-
-// const SplashScreen = ({ splashLoading }) => {
-//   return (
-//     <div
-//       className="grid place-content-center bg-blue-800 text-white z-9999 fixed w-screen h-screen"
-//       style={{
-//         visibility: splashLoading ? "visible" : "hidden",
-//         transition: "opacity 0.5s ease",
-//       }}
-//     >
-//       <img src={LoadingGif} className="w-48" alt="" />
-//     </div>
-//   );
-// };
-
-// export default SplashScreen;
-
 
 
 

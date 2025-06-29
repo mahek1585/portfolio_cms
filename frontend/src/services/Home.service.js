@@ -1,6 +1,6 @@
 import axios from "axios";
 import { skillsUrl, worksUrl } from "../utils/urls";
-console.log("Calling skills API:", skillsUrl);
+// console.log("Calling skills API:", skillsUrl);
 
 const getSkillList = async () => {
   return axios.get(skillsUrl);
